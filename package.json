@@ -1,0 +1,14 @@
+{
+  "name": "node-rest",
+  "version": "0.01",
+  "private": true,
+  "scripts": {
+    "start": "nodejs app.js"
+  },
+  "dependencies": {
+    "express": "4.7.2",
+    "jade": "*",
+    "body-parser": "latest",
+    "mongoose": "latest"
+  }
+}
