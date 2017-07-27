@@ -76,7 +76,7 @@ router.put('/', function(request, response) {
     }
 });
 
-router.delete('//:id', function(request, response) {
+router.delete('/:id', function(request, response) {
     try {
         UserRepository.get(request.params.id, (error, user) => {
             UserRepository.remove(user, (error, user) => {
